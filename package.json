@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "name": "mcga-primer-parcial",
+  "description": ">https://github.com/Adrincovich/AdrianDrincovich-wordle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrincovich/mcga-primer-parcial.git"
+  },
+  "author": "Adrian Drincovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrincovich/mcga-primer-parcial/issues"
+  },
+  "homepage": "https://github.com/Adrincovich/mcga-primer-parcial#readme"
+}

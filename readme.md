@@ -1,13 +1,13 @@
 # Primer Parcial LPPA
 
-## Repositorio HitHub
+### Repositorio HitHub
 >https://github.com/Adrincovich/AdrianDrincovich-wordle
 
 
-CRUD de productos.
+### CRUD de productos.
 
 
-## Tecnologias Utilizadas:
+### Tecnologias Utilizadas:
 * Node.js, NPM y Express.js<br>
 * MongoDB Atlas Database - The Cloud-Native Database<br>
 * ODM Mongoose<br>
