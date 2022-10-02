@@ -9,10 +9,12 @@ dotenv.config();
 
 app.use(express.json());
 
-mongoose.connect(process.env.CONNECTION_URL)
+app.listen(process.env.PORT, () => console.log("Server ok"))
+
+// mongoose.connect(`mongodb+srv://adrincovich:adrian@cluster0.evpr3zb.mongodb.net/?retryWrites=true&w=majority`)
+mongoose.connect(process.env.CONECTION_URL)
     .then(() => {
         console.log("🟢 DB Connected")
-        app.listen(process.env.PORT, () => console.log("Server ok"))
     })
     .catch(err => console.log("🔴 Server error: " + err.message));
 
