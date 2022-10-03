@@ -11,6 +11,10 @@ const ProductScheme = new Schema({  //inicializamos productos
         require: true,
         maxLength: 30
     },
+    description: {
+        type: String,
+        maxLength: 100,
+    },
     price: {
         type: Number,
         require: true,
@@ -20,10 +24,6 @@ const ProductScheme = new Schema({  //inicializamos productos
         type: Number,
         require: true,
         minLength: 0
-    },
-    description: {
-        type: String,
-        maxLength: 100,
     },
     isDeleted: {
         type: Boolean,
