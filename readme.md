@@ -1,7 +1,7 @@
-# Primer Parcial LPPA
+# Primer Parcial MCGA
 
 ### Repositorio HitHub
->https://github.com/Adrincovich/AdrianDrincovich-wordle
+>https://github.com/Adrincovich/mcga-primer-parcial
 
 
 ### CRUD de productos.
