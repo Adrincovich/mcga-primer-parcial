@@ -26,11 +26,11 @@ router.get('/product/byName/:name',getByName);
 // CREATE PRODUCT
 router.post('/product/add',createProduct);
 // UPDATE PRODUCT
-router.put('/product/update/:_id',updateProduct);
+router.put('/product/update/:id',updateProduct);
 // DELETE PRODUCT
-router.delete('/product/delete/:_id',removeProduct);
+router.delete('/product/delete/:id',removeProduct);
 // UNDO DELETE PRODUCT BY ID
-router.put('/product/:_id',undoDeleteById);
+router.put('/product/undoDelete/:id',undoDeleteById);
 
 
 
